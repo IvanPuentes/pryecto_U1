@@ -1,0 +1,245 @@
+{% load static %}
+<title>
+    Mi Proyecto
+</title>
+
+
+<div id="principal">
+
+<div id="titulo">
+    <div id="titulo1">
+        <h1 id="titulo1_t">Descubre algo nuevo</h1>
+    </div>
+    <div id="titulo2">
+        <h1 id="titulo2_t">Mi Espacio De Programacion</h1>
+    </div>
+</div><!--div titulo-->
+
+<div id="contenido">
+   
+   
+   <div id="contenido_1">
+       <div id="contendio1_link1"><a href="{% url 'about' %}"><img src="{% static 'img/1.jpg'%}" id="img1"></a></div>
+       <div id="contendio1_link2"><a href="{% url 'about' %}"><br>Proyectos</a></div>
+    </div>
+
+
+   <div id="contenido_2">
+        <div id="contendio1_link1"><a href="{% url 'android' %}"><img src="{% static 'img/2.jpg'%}" id="img1"></a></div>
+        <div id="contendio1_link2"><a href="{% url 'android' %}"><br>Android</a></div>
+    </div>
+   
+   
+   
+   <div id="contenido_3">
+        <div id="contendio1_link1"><a href="{% url 'ios' %}"><img src="{% static 'img/9.jfif'%}" id="img1"></a></div>
+        <div id="contendio1_link2"><a href="{% url 'ios' %}"><br>IOS</a></div>
+    </div>
+  
+   <div id="contenido_4">
+    <img src="{% static 'img/10.jpg'%}" id="img1">
+   </div>
+  
+   <div id="contenido_5">
+        <div id="contendio1_link1"><a href="{% url 'C' %}"><img src="{% static 'img/4.png'%}" id="img1"></a></div>
+        <div id="contendio1_link2"><a href="{% url 'C' %}"><br> C++,C#</a></div>
+    </div>
+
+   <div id="contenido_6">
+        <div id="contendio1_link1"><a href="{% url 'Java' %}"><img src="{% static 'img/5.jpg'%}" id="img1"></a></div>
+        <div id="contendio1_link2"><a href="{% url 'Java' %}"><br> Java</a></div>
+    </div>
+
+   <div id="contenido_7">
+    <div id="contendio1_link1"><a href="{% url 'html' %}"><img src="{% static 'img/6.jpg'%}" id="img1"></a></div>
+    <div id="contendio1_link2"><a href="{% url 'html' %}"><br> Html5</a></div>
+    </div>
+
+
+
+
+</div><!--div contenido-->
+
+
+<div id="acercade">
+    
+    <h1>Acerca de </h1>
+    <p>Esta  pagina esta diseñada en django, y prgramada en html.<br>Fue diseñada con el proposito
+    de poder presentarce como proyecto en la clase de PILA 2<br>
+    
+    <img src="{% static 'img/ITL.png'%}" id="imagentec">
+    </p>
+</div>
+
+<div id="footer">
+    <p >&derechos reservados del alumno Ivan Andres Puentes Cortez</p>
+</div>
+
+</div> <!--div principal-->
+
+
+
+
+
+<style>
+
+#imagentec{
+    width: 200px;
+    height: 220px;
+}
+
+    #principal{
+       
+        height: 600px;
+        width: 1350px;
+    }
+    #titulo{
+        height: 100px;
+    }
+    #acercade{
+        height: 400px;
+        width: 1350px;
+        background-color:rgba(243, 247, 0, 0.24);
+        margin-top: 50px;
+    }
+
+    #titulo1{
+        background-color: black;
+        color: white;
+        height: 100px;
+        width: 25%;
+        float: right;
+        
+    }
+
+    #titulo2{
+        background-color:rgb(17, 194, 76);
+        height: 100px;
+        width: 75%;
+        color: white;
+    }
+
+
+    #titulo1_t{
+       text-align: center;
+    }
+    #titulo2_t{
+       text-align: center;
+       padding-top: 25px;
+    }
+
+h1{
+    text-align: center;
+}
+p{
+    text-align: center;
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+    #contenido{
+        height: 400px;
+    }
+
+
+    #contenido_1{
+      
+        height: 50%;
+        width: 250px;
+        float: left;
+        margin-right: 10px;
+        margin-top: 10px;
+    }  
+
+    #contendio1_link1{
+        height: 75%;
+    }
+
+    #img1{
+        height: 100%;
+        width: 100%;
+    }
+
+    #contendio1_link2{
+        height: 25%;
+        text-align: center;
+        background-color: black;
+    }
+    a{
+        color:white;
+    }
+
+    p{
+       text-align: center;
+       margin-top: 50px;
+    }
+
+    
+    #contenido_2{
+       
+        height: 50%;
+        width: 250px;
+        float: left;
+        margin-right: 10px;
+        margin-top: 10px;
+    }  
+    
+    #contenido_3{
+       
+        height: 50%;
+        width: 250px;
+        float: left;
+        margin-right: 10px;
+        margin-top: 10px;
+        
+    }  
+    
+    
+    
+    #contenido_4{
+      
+        height: 100%;
+        width: 500px;
+        float: right;
+        margin-top: 10px;
+        margin-right: 20px;
+    }  
+    
+    
+    
+    #contenido_5{
+    
+        height: 50%;
+        width: 250px;
+        float: left;
+        margin-right: 10px;
+        margin-top: 10px;
+    }
+
+    #contenido_6{
+      
+        height: 50%;
+        width: 250px;
+        float: left;
+        margin-right: 10px;
+        margin-top: 10px;
+    }
+    #contenido_7{
+      
+        height: 50%;
+        width: 250px;
+        float: left;
+        margin-right: 10px;
+        margin-top: 10px;
+    }
+
+
+
+    #footer{
+        height: 50px;
+        
+    }
+
+
+
+</style>

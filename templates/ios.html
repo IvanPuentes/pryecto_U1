@@ -1,0 +1,178 @@
+<div id="contorrno">
+
+    <div id="titulo">
+        
+        <div id="cont0">
+            <a  href="{% url 'about' %}">Proyectos</a>
+        </div>
+        <div id="cont1">
+            <a href="{% url 'android' %}">Android</a>
+        </div>
+        <div id="cont2">
+            <a id="a1" href="{% url 'ios' %}">IOS</a>
+        </div>
+        <div id="cont3">
+            <a href="{% url 'C' %}">C/C++</a>
+        </div>
+        <div id="cont4">
+            <a href="{% url 'Java' %}">Java</a>
+        </div>
+        <div id="cont5">
+            <a href="{% url 'html' %}">HTML5</a>
+        </div>
+      
+    </div>
+
+
+
+    <div id="Izquierda">
+
+        <h2>Descarga de proyectos </h2>
+
+        <ul>
+            <li>Movimiento 3D</li>
+            <br>
+            <li>Juego de pelota</li>
+            <br>
+            <li>Lectura de paginas</li>
+            <br>
+            <li>Registro Automatico</li>
+            <br>
+            <li>Uso de modelos </li>
+            <br>
+            <li>Traslacion de objetos</li>
+            <br>
+            <li>progracion binaria</li>
+            <br>
+            <li>Inteligencia artificial</li>
+        </ul>
+    
+    </div>
+
+    <div id="centro">
+        <h1>IOS</h1>
+        <br><br>
+        <span>
+            Esta es una pagina diseñada para ayudar a los jovenes para poder 
+            aprender un  mas hacerca de otros temas.
+            A continuacion se presentan la descripcion de algunos proyectos
+        </span>
+
+        <h2>Realizacion de pruebas de instalacion</h2>
+        <span>
+            Podras realizar instalacion del virtualizado para poder tener acceso a todo el 
+            potencial de xcode y asi poder desarrollar las aplicaciones que mas te gusten<br>
+        </span>
+
+       
+        
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/E3HA3AD6UMg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+    </div>
+
+
+
+    <div id="derecha">
+        <h1>Referencias</h1> 
+        
+        <ul>
+            <li><a id="a1" href="">Diseño de aplicaciones </a></li>
+            <br>
+            <li><a id="a1" href="">Modelado en 3D</a></li>
+            <br>
+            <li><a id="a1" href="">Lentes de realidad virtual</a></li>
+            <br>
+            <li><a id="a1" href="">Aplicacion de realidad virtual en programacion</a></li>
+        </ul>
+        
+       
+       
+        
+       
+        
+    </div>
+    
+</div>
+
+<style>
+    #contorrno{
+        height: 800px;
+        width: 1350px;
+       background-color: rgb(0, 250, 83, 0.192);
+    }
+    #titulo{
+        background-color: black;
+        height: 100px;
+        
+    }
+    #cont0,#cont1,#cont2,#cont3,#cont4,#cont5{
+        text-align: center;
+        padding-top: 30px;
+        width: 225px;
+        height: 70px;
+        background-color: black;
+        float: left;
+    }
+    #cont2{
+        background-color:red;
+    }
+    #cont0:hover,#cont1:hover,#cont3:hover,#cont4:hover,#cont5:hover{
+        background-color: red;
+    }
+
+
+    #a1{
+        color: black;
+    }
+    a{
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 18px;
+    }
+    li{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 18px;
+    }
+    #izquierda{
+     
+        width: 20%;
+        height: 700px;
+        float: left;
+        border-right: black;
+        border-right-style: solid;
+    }
+    #centro{
+      
+        width: 57%;
+        height: 700px;
+        float: left;
+        margin-left: 20px;
+       
+       
+    }
+    #derecha{
+        
+        width: 20%;
+        height: 700px;
+        float: left;
+        border-right: black;
+        border-left-style: solid;
+    }
+    h2{
+        text-align: center;
+    }
+    h1{
+        text-align: center;
+    }
+    span{
+        font-size: 18px;
+        font-family: Arial, Helvetica, sans-serif;
+      
+        
+    }
+    iframe{
+        margin-top: 50px;
+        margin-left: 150px;
+    }
+
+</style>

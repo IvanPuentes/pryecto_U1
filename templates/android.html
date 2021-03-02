@@ -1,0 +1,179 @@
+<div id="contorrno">
+
+    <div id="titulo">
+        
+        <div id="cont0">
+            <a  href="{% url 'about' %}">Proyectos</a>
+        </div>
+        <div id="cont1">
+            <a id="a1" href="{% url 'android' %}">Android</a>
+        </div>
+        <div id="cont2">
+            <a href="{% url 'ios' %}">IOS</a>
+        </div>
+        <div id="cont3">
+            <a href="{% url 'C' %}">C/C++</a>
+        </div>
+        <div id="cont4">
+            <a href="{% url 'Java' %}">Java</a>
+        </div>
+        <div id="cont5">
+            <a href="{% url 'html' %}">HTML5</a>
+        </div>
+      
+    </div>
+
+
+
+    <div id="Izquierda">
+
+        <h2>Descarga de proyectos </h2>
+
+        <ul>
+            <li>Layaout basicos </li>
+            <br>
+            <li>Botones dimanicos y estaticos</li>
+            <br>
+            <li>Bases de datos en andorid</li>
+            <br>
+            <li>imagenesy videos</li>
+            <br>
+            <li>Multimedia y accesos a llamadas y mensajes </li>
+            <br>
+            <li>Aplicaciones funcionales</li>
+            <br>
+            <li>progracion avanzada en android </li>
+            <br>
+            <li>Practica 1</li>
+        </ul>
+    
+    </div>
+
+    <div id="centro">
+        <h1>Android </h1>
+        <br><br>
+        <span>
+            Esta es una pagina diseñada para ayudar a los jovenes para poder 
+            aprender un  mas hacerca de otros temas.
+            A continuacion se presentan la descripcion de algunos proyectos
+        </span>
+
+        <h2>Practica 1 "Inicio de la app"</h2>
+        <span>
+            en estas seciones podremos llevar a caobo la instalacion ademas de poder <br>
+            programar en el lenguaje de java, harmemos una pequeña prueba de como realizar una app
+             
+        </span>
+
+       
+        
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/BQaxPwZWboA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+    </div>
+
+
+
+    <div id="derecha">
+        <h1>Referencias</h1> 
+        
+        <ul>
+            <li><a id="a1" href="">Diseño de aplicaciones en android </a></li>
+            <br>
+            <li><a id="a1" href="">Libro de desarrollo de app en android </a></li>
+            <br>
+            <li><a id="a1" href="">programacion orientada a objetos en moviles</a></li>
+            <br>
+            <li><a id="a1" href="">diseño de app para andorid</a></li>
+        </ul>
+        
+       
+       
+        
+       
+        
+    </div>
+    
+</div>
+
+<style>
+    #contorrno{
+        height: 800px;
+        width: 1350px;
+       background-color: rgb(0, 250, 83, 0.192);
+    }
+    #titulo{
+        background-color: black;
+        height: 100px;
+        
+    }
+    #cont0,#cont1,#cont2,#cont3,#cont4,#cont5{
+        text-align: center;
+        padding-top: 30px;
+        width: 225px;
+        height: 70px;
+        background-color: black;
+        float: left;
+    }
+    #cont1{
+        background-color:red;
+    }
+    #cont0:hover,#cont2:hover,#cont3:hover,#cont4:hover,#cont5:hover{
+        background-color: red;
+    }
+
+
+    #a1{
+        color: black;
+    }
+    a{
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 18px;
+    }
+    li{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 18px;
+    }
+    #izquierda{
+     
+        width: 20%;
+        height: 700px;
+        float: left;
+        border-right: black;
+        border-right-style: solid;
+    }
+    #centro{
+      
+        width: 57%;
+        height: 700px;
+        float: left;
+        margin-left: 20px;
+       
+       
+    }
+    #derecha{
+        
+        width: 20%;
+        height: 700px;
+        float: left;
+        border-right: black;
+        border-left-style: solid;
+    }
+    h2{
+        text-align: center;
+    }
+    h1{
+        text-align: center;
+    }
+    span{
+        font-size: 18px;
+        font-family: Arial, Helvetica, sans-serif;
+      
+        
+    }
+    iframe{
+        margin-top: 50px;
+        margin-left: 150px;
+    }
+
+</style>
